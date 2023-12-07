@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     private static final String filePath = "src/main/resources/adventofcode.com_2023_day_1_input.txt";
+    private static final List<String> spelledNumbers = List.of("one", "two", "three", "four", "five", "six", "sexen", "eight", "nine");
 
     public static void main(String[] args) throws IOException {
         List<String> inputs = getInputListFromFile(filePath);
